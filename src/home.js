@@ -20,14 +20,11 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { FormattedMessage } from 'react-intl';
 
+import WebStore from '@parity/dapp-web/src/store';
+import DappsStore from '@parity/shared/mobx/dappsStore';
+import ExtensionStore from '@parity/shared/mobx/extensionStore';
 import HistoryStore from '@parity/shared/mobx/historyStore';
 import { Page } from '@parity/ui';
-
-import WebStore from '@parity/dapp-web/store';
-
-// FIXME: Don't really want to import from ~/src
-import DappsStore from '~/src/Dapps/dappsStore';
-import ExtensionStore from '~/src/Extension/store';
 
 import Accounts from './Accounts';
 import Dapps from './Dapps';
