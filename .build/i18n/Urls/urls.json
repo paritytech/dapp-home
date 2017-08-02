@@ -1,0 +1,14 @@
+[
+  {
+    "id": "home.url.title",
+    "defaultMessage": "Web Applications"
+  },
+  {
+    "id": "home.url.none",
+    "defaultMessage": "No recent URL history available"
+  },
+  {
+    "id": "home.url.visited",
+    "defaultMessage": "visited {when}"
+  }
+]
