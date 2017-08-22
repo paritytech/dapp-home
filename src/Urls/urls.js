@@ -128,7 +128,7 @@ export default class Urls extends Component {
     this.props.store.gotoUrl(url);
 
     if (extensionStore.hasExtension) {
-      window.open(this.props.store.currentUrl, '_blank');
+      window.open(url, '_blank');
     } else {
       router.push('/web');
     }
