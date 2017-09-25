@@ -65,8 +65,8 @@
   "dependencies": {
     "@parity/api": "^2",
     "@parity/dapp-web": "paritytech/dapp-web",
-    "@parity/shared": "paritytech/js-shared",
-    "@parity/ui": "paritytech/js-ui",
+    "@parity/shared": "^2",
+    "@parity/ui": "^2",
     "react-markdown": "2.4.4"
   },
   "peerDependencies": {}
