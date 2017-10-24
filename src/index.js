@@ -27,6 +27,14 @@ import ContextProvider from '@parity/ui/ContextProvider';
 import api from './api';
 import Home from './home';
 
+console.log('dapp:window', window);
+console.log('dapp:window.test', window.test);
+
+setTimeout(() => {
+  console.log('(timer) dapp:window', window);
+  console.log('(timer) dapp:window.test', window.test);
+}, 1000);
+
 const store = initStore(api, hashHistory);
 
 ReactDOM.render(
