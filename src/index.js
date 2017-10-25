@@ -27,12 +27,10 @@ import ContextProvider from '@parity/ui/ContextProvider';
 import api from './api';
 import Home from './home';
 
-console.log('dapp:window.test1', window.test1);
-console.log('dapp:window.test2', window.test2);
+console.log('dapp:window.injectedBondCache', window.injectedBondCache);
 
 setTimeout(() => {
-  console.log('(timer) dapp:window.test1', window.test1);
-  console.log('(timer) dapp:window.test2', window.test2);
+  console.log('(timer) dapp:window.injectedBondCache', window.injectedBondCache);
 }, 1000);
 
 const store = initStore(api, hashHistory);
