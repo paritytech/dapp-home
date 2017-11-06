@@ -21,7 +21,7 @@ import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 
 import { Container, ContainerTitle, DappUrlInput, SectionList } from '@parity/ui';
-import { LinkIcon } from '@parity/ui/Icons';
+import { LinkIcon } from '@parity/ui/lib/Icons';
 
 import styles from './urls.css';
 

@@ -16,7 +16,7 @@
 
 import { action, observable } from 'mobx';
 
-import Contracts from '@parity/shared/contracts';
+import Contracts from '@parity/shared/lib/contracts';
 
 let instance = null;
 
